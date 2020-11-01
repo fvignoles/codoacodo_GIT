@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso al sistema</title>
+    <script src="control.js"></script>
+</head>
+<body>
+    <div align=center> 
+        <h2>Ingreso al sistema</h2>
+        <form name="formulario" action="" method="get">
+            <table>   
+                <tr>
+                    <td><label for="usuario">Usuario :</label></td>
+                    <td><input type="text" name="usuario"></td>
+                </tr>
+                <tr>
+                    <td><label for="usuario">Clave :</label></td>
+                    <td><input type="password" name="clave"></td>
+                </tr>
+            </table>    
+            <p><input type="submit" name="ingresar" value="Ingresar" onclick="validarMail(formulario)"></p>
+        </form>
+    </div>
+</body>
+</html>
